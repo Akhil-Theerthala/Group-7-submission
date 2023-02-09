@@ -1,0 +1,186 @@
+{'Open': <class 'statsmodels.iolib.summary.Summary'>
+ """
+                             OLS Regression Results                            
+ ==============================================================================
+ Dep. Variable:                   Open   R-squared:                       0.003
+ Model:                            OLS   Adj. R-squared:                 -0.013
+ Method:                 Least Squares   F-statistic:                    0.1771
+ Date:                Thu, 09 Feb 2023   Prob (F-statistic):              0.950
+ Time:                        16:35:18   Log-Likelihood:                -817.71
+ No. Observations:                 250   AIC:                             1645.
+ Df Residuals:                     245   BIC:                             1663.
+ Df Model:                           4                                         
+ Covariance Type:            nonrobust                                         
+ ==============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+ ------------------------------------------------------------------------------
+ Friday        95.0333      0.910    104.401      0.000      93.240      96.826
+ Monday        95.2072      0.901    105.632      0.000      93.432      96.982
+ Thursday      95.0359      0.901    105.442      0.000      93.261      96.811
+ Tuesday       95.3437      0.929    102.625      0.000      93.514      97.174
+ Wednesday     95.9597      0.910    105.418      0.000      94.167      97.753
+ ==============================================================================
+ Omnibus:                       13.770   Durbin-Watson:                   0.090
+ Prob(Omnibus):                  0.001   Jarque-Bera (JB):               14.995
+ Skew:                           0.587   Prob(JB):                     0.000554
+ Kurtosis:                       2.748   Cond. No.                         1.03
+ ==============================================================================
+ 
+ Notes:
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+ """,
+ 'High': <class 'statsmodels.iolib.summary.Summary'>
+ """
+                             OLS Regression Results                            
+ ==============================================================================
+ Dep. Variable:                   High   R-squared:                       0.003
+ Model:                            OLS   Adj. R-squared:                 -0.013
+ Method:                 Least Squares   F-statistic:                    0.1761
+ Date:                Thu, 09 Feb 2023   Prob (F-statistic):              0.951
+ Time:                        16:35:18   Log-Likelihood:                -824.15
+ No. Observations:                 250   AIC:                             1658.
+ Df Residuals:                     245   BIC:                             1676.
+ Df Model:                           4                                         
+ Covariance Type:            nonrobust                                         
+ ==============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+ ------------------------------------------------------------------------------
+ Friday        96.1420      0.934    102.932      0.000      94.302      97.982
+ Monday        96.5082      0.925    104.352      0.000      94.687      98.330
+ Thursday      96.0984      0.925    103.909      0.000      94.277      97.920
+ Tuesday       96.5806      0.953    101.312      0.000      94.703      98.458
+ Wednesday     97.0643      0.934    103.919      0.000      95.225      98.904
+ ==============================================================================
+ Omnibus:                       13.975   Durbin-Watson:                   0.066
+ Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.214
+ Skew:                           0.590   Prob(JB):                     0.000497
+ Kurtosis:                       2.736   Cond. No.                         1.03
+ ==============================================================================
+ 
+ Notes:
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+ """,
+ 'Low': <class 'statsmodels.iolib.summary.Summary'>
+ """
+                             OLS Regression Results                            
+ ==============================================================================
+ Dep. Variable:                    Low   R-squared:                       0.004
+ Model:                            OLS   Adj. R-squared:                 -0.012
+ Method:                 Least Squares   F-statistic:                    0.2411
+ Date:                Thu, 09 Feb 2023   Prob (F-statistic):              0.915
+ Time:                        16:35:18   Log-Likelihood:                -813.53
+ No. Observations:                 250   AIC:                             1637.
+ Df Residuals:                     245   BIC:                             1655.
+ Df Model:                           4                                         
+ Covariance Type:            nonrobust                                         
+ ==============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+ ------------------------------------------------------------------------------
+ Friday        93.5477      0.895    104.500      0.000      91.784      95.311
+ Monday        93.8127      0.886    105.839      0.000      92.067      95.559
+ Thursday      93.7487      0.886    105.766      0.000      92.003      95.495
+ Tuesday       94.0559      0.914    102.945      0.000      92.256      95.856
+ Wednesday     94.6857      0.895    105.771      0.000      92.922      96.449
+ ==============================================================================
+ Omnibus:                       14.169   Durbin-Watson:                   0.078
+ Prob(Omnibus):                  0.001   Jarque-Bera (JB):               15.604
+ Skew:                           0.606   Prob(JB):                     0.000409
+ Kurtosis:                       2.829   Cond. No.                         1.03
+ ==============================================================================
+ 
+ Notes:
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+ """,
+ 'Close': <class 'statsmodels.iolib.summary.Summary'>
+ """
+                             OLS Regression Results                            
+ ==============================================================================
+ Dep. Variable:                  Close   R-squared:                       0.005
+ Model:                            OLS   Adj. R-squared:                 -0.011
+ Method:                 Least Squares   F-statistic:                    0.3102
+ Date:                Thu, 09 Feb 2023   Prob (F-statistic):              0.871
+ Time:                        16:35:18   Log-Likelihood:                -816.72
+ No. Observations:                 250   AIC:                             1643.
+ Df Residuals:                     245   BIC:                             1661.
+ Df Model:                           4                                         
+ Covariance Type:            nonrobust                                         
+ ==============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+ ------------------------------------------------------------------------------
+ Friday        94.5250      0.907    104.254      0.000      92.739      96.311
+ Monday        95.2752      0.898    106.127      0.000      93.507      97.043
+ Thursday      94.7967      0.898    105.594      0.000      93.028      96.565
+ Tuesday       95.3306      0.925    103.018      0.000      93.508      97.153
+ Wednesday     95.8243      0.907    105.687      0.000      94.038      97.610
+ ==============================================================================
+ Omnibus:                       14.548   Durbin-Watson:                   0.089
+ Prob(Omnibus):                  0.001   Jarque-Bera (JB):               16.070
+ Skew:                           0.614   Prob(JB):                     0.000324
+ Kurtosis:                       2.816   Cond. No.                         1.03
+ ==============================================================================
+ 
+ Notes:
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+ """,
+ 'Adj Close': <class 'statsmodels.iolib.summary.Summary'>
+ """
+                             OLS Regression Results                            
+ ==============================================================================
+ Dep. Variable:              Adj Close   R-squared:                       0.005
+ Model:                            OLS   Adj. R-squared:                 -0.011
+ Method:                 Least Squares   F-statistic:                    0.3144
+ Date:                Thu, 09 Feb 2023   Prob (F-statistic):              0.868
+ Time:                        16:35:18   Log-Likelihood:                -807.79
+ No. Observations:                 250   AIC:                             1626.
+ Df Residuals:                     245   BIC:                             1643.
+ Df Model:                           4                                         
+ Covariance Type:            nonrobust                                         
+ ==============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+ ------------------------------------------------------------------------------
+ Friday        93.8995      0.875    107.329      0.000      92.176      95.623
+ Monday        94.6428      0.866    109.255      0.000      92.937      96.349
+ Thursday      94.1078      0.866    108.637      0.000      92.402      95.814
+ Tuesday       94.7574      0.893    106.121      0.000      92.999      96.516
+ Wednesday     95.1005      0.875    108.701      0.000      93.377      96.824
+ ==============================================================================
+ Omnibus:                       15.331   Durbin-Watson:                   0.090
+ Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.002
+ Skew:                           0.638   Prob(JB):                     0.000203
+ Kurtosis:                       2.946   Cond. No.                         1.03
+ ==============================================================================
+ 
+ Notes:
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+ """,
+ 'Volume': <class 'statsmodels.iolib.summary.Summary'>
+ """
+                             OLS Regression Results                            
+ ==============================================================================
+ Dep. Variable:                 Volume   R-squared:                       0.001
+ Model:                            OLS   Adj. R-squared:                 -0.016
+ Method:                 Least Squares   F-statistic:                   0.03138
+ Date:                Thu, 09 Feb 2023   Prob (F-statistic):              0.998
+ Time:                        16:35:18   Log-Likelihood:                -4366.5
+ No. Observations:                 250   AIC:                             8743.
+ Df Residuals:                     245   BIC:                             8761.
+ Df Model:                           4                                         
+ Covariance Type:            nonrobust                                         
+ ==============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+ ------------------------------------------------------------------------------
+ Friday      1.539e+07   1.33e+06     11.571      0.000    1.28e+07     1.8e+07
+ Monday      1.568e+07   1.32e+06     11.902      0.000    1.31e+07    1.83e+07
+ Thursday    1.593e+07   1.32e+06     12.096      0.000    1.33e+07    1.85e+07
+ Tuesday      1.57e+07   1.36e+06     11.566      0.000     1.3e+07    1.84e+07
+ Wednesday   1.538e+07   1.33e+06     11.557      0.000    1.28e+07     1.8e+07
+ ==============================================================================
+ Omnibus:                      112.684   Durbin-Watson:                   0.962
+ Prob(Omnibus):                  0.000   Jarque-Bera (JB):              409.309
+ Skew:                           1.936   Prob(JB):                     1.32e-89
+ Kurtosis:                       7.930   Cond. No.                         1.03
+ ==============================================================================
+ 
+ Notes:
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+ """}
